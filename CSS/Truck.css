@@ -210,12 +210,12 @@
 
   #create-account {
     width: 100%;
-    height: 100vh;
+    height: 6vh;
     padding: 0.4rem;
     border-radius: 0.3rem;
     background: linear-gradient(135deg, #bda330, #5a3a1c);
     color: rgba(255, 255, 255, 0.885);
-    font-size: 1vmax;
+    /* font-size: 1vmax; */
   }
 
   #create-account-sub {
