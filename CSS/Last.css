@@ -357,10 +357,12 @@
         flex-direction: column;
         width: 50%;
     }
-
+    
     .Read_Get-btn button {
+        cursor: pointer;
         width: 50%;
     }
+
 
     #trak_img {
         width: 80%;
@@ -458,6 +460,7 @@
 }
 
 .Read_Get-btn button {
+    cursor: pointer;
     background-color: rgb(229, 164, 0);
     color: rgb(0, 0, 0);
     width: auto;
@@ -1180,6 +1183,7 @@
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     background-color: #eeeaea;
+    overflow: scroll;
 
 }
 
