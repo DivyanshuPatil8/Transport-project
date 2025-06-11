@@ -161,7 +161,7 @@
     font-size: 1.8vw;
 }
 
-.fa-instagram-edit{
+.fa-instagram-edit {
     /* font-size: 5vh; */
     color: rgb(40, 23, 6);
 
@@ -357,7 +357,7 @@
         flex-direction: column;
         width: 50%;
     }
-    
+
     .Read_Get-btn button {
         cursor: pointer;
         width: 50%;
@@ -435,7 +435,16 @@
     font-size: 1rem;
     border-radius: 0.5rem;
     border: none;
+    padding-left: 30px;
+    /* Moves it right */
+    padding-top: 10px;
+   
+    color: rgb(67, 67, 67);
+    /* font-style: italic; */
+
 }
+
+
 
 .sear-btn button {
     width: auto;
@@ -446,6 +455,7 @@
     background-color: rgb(111, 60, 9);
     border-radius: 0.2rem;
     border: none;
+    cursor: pointer;
 }
 
 .start_hadding {
@@ -1182,7 +1192,8 @@
 
 body {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #eeeaea;;
+    background-color: #eeeaea;
+    ;
 
 }
 
@@ -2520,20 +2531,21 @@ body {
         gap: 20px;
     }
 }
-  @media (max-width: 768px) {
-        .testimonials-container {
-          padding: 40px 20px;
-        }
 
-        .main-heading {
-          font-size: 32px;
-        }
+@media (max-width: 768px) {
+    .testimonials-container {
+        padding: 40px 20px;
+    }
 
-        .testimonials-grid {
-          grid-template-columns: 1fr;
-        }
+    .main-heading {
+        font-size: 32px;
+    }
 
-        .testimonial-card {
-          padding: 25px;
-        }
-      }
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .testimonial-card {
+        padding: 25px;
+    }
+}
